@@ -24,8 +24,12 @@ by everyone in the lab.
 
 Mac: Terminal
 
-PC: Putty for SSH
-- Leave blank for shashank to fill out
+PC ( Windows ): Putty for SSH
+- A PC does not have a native SSH functionality. There are several tools that enable a PC to login to a server using SSH. "Putty" is a commonly used tool for this purpose. To download putty onto your PC, please use the follow link:
+http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+Download the "Putty" and "Pscp" utilitites under the "The latest release version (beta 0.66)" section.
+- Execute the downloaded files by double-clicking on them and this will complete the installation. 
+- To open a putty terminal, double click on the putty icon.
 
 Color coding for files/ls - "Homebrew" theme
 
@@ -34,10 +38,6 @@ Color coding for files/ls - "Homebrew" theme
 #### Mac
 
 Search for "Terminal" in spotlight
-
-#### Windows - Shashank fill in here
-
-Download [putty](http://putty.com) **shashank fill in the rest**
 
 #### GNU/BSD/Linux
 
@@ -50,6 +50,11 @@ In your terminal, type the following (you'll need to replace `username` with you
 ```
 ssh username@tscc.sdsc.edu
 ```
+PC ( Windows ):
+- From the location where you have downloaded / saved putty, double-click on the putty icon to start a putty session. This will open a pop-up windows. Under the tab for "Host Name (or IP address)", enter:
+tscc-login.sdsc.edu
+- On the next windows, enter your TSCC username.
+- Putty will then ask for your password to complete login to TSCC. Enter your TSCC password to successfully log in to TSCC
 
 ### 3. Organize your home directory
 
